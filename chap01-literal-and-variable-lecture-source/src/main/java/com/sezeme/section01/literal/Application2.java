@@ -1,4 +1,4 @@
-package com.sezeme.lecture01.literal;
+package com.sezeme.section01.literal;
 
 public class Application2 {
     public static void main(String[] args) {
