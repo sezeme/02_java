@@ -29,7 +29,18 @@ public class Application2 {
         System.out.println("iarr.length : " + iarr.length);
         System.out.println("darr.length : " + darr.length);
 
+        /* 한 번 지정한 배열의 길이는 변경할 수 없다.
+         * 새로운 배열을 생성하여 그 주소 값을 레퍼런스 변수에 담는다.*/
+        iarr = new int[100];
+        System.out.println("수정 된 iarr.hashCode() : " + iarr.hashCode());
+        System.out.println("수정 된 iarr.length : " + iarr.length);
 
-
+        /* 레퍼런스 변수가 아무런 주소를 참조하지 않는 상태를 null 이라고 한다.
+         * 100개 짜리의 배열이 더 이상 참조 되지 않으므로 GC(가비지 컬렉터)에 의해 제거 된다. */
+        iarr = null;
+        /* null 이라는 특수 값을 참조하고 있을 경우 참조 연산자 (.) 사용 시
+         * java.lang.NullPointerException 이 발생한다. */
+//        System.out.println("수정 된 iarr.hashCode() : " + iarr.hashCode());
+//        System.out.println("수정 된 iarr.length : " + iarr.length);
     }
 }
