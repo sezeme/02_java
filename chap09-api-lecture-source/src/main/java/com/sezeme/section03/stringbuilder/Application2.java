@@ -1,4 +1,4 @@
-package com.sezeme.section3.stringbuilder;
+package com.sezeme.section03.stringbuilder;
 
 public class Application2 {
     public static void main(String[] args) {
