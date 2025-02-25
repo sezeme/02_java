@@ -1,4 +1,4 @@
-package com.sezeme.time;
+package com.sezeme.section05.time;
 
 import java.time.*;
 
@@ -29,7 +29,7 @@ public class Application1 {
         System.out.println("dateTimeNow = " + dateTimeNow);
         System.out.println("dateTimeOf = " + dateTimeOf);
 
-        //ZonedDateTime
+        //ZonedDateTime : 지역별 현재 시간
         // now() : ZoneId를 매개변수로 넘겨주면 ZonedDateTime 객체를 반환
         // of() : 매개변수로 java.util.TimeZone 의 getAvailableIDs() 메소드가 반환하는 값을 넣어 ZoneId 반환 받을 수 있다
         ZonedDateTime zonedDateTimeNow = ZonedDateTime.now();
