@@ -1,4 +1,6 @@
-package com.sezeme.section01.list.run;
+package com.sezeme.section01.list.comparator;
+
+import com.sezeme.section01.list.dto.BookDTO;
 
 import java.util.Comparator;
 

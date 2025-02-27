@@ -1,4 +1,4 @@
-package com.sezeme.section01.list.run;
+package com.sezeme.section01.list.dto;
 
 public class BookDTO implements Comparable<BookDTO> {
     private int number;
